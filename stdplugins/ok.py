@@ -17,22 +17,13 @@ async def _(event):
     if input_str == "ok":
         await event.edit(input_str)
         animation_chars = [
-            "B",
-            "O",
-            "T",
-            "H",
-            "U",
-            "B",
-            "I",
-            "S",
-            "T",
-            "H",
-            "E",
-            "B",
-            "E",
-            "S",
-            "T",
-            "BOTHUB IS THE BEST , 0K Sir 😇"
+            "L",
+            "LO",
+            "RA",
+            "ZA",
+            "LO",
+            "RA",
+            "BOT LZYT IS THE BEST , 0K Sir 😇"
         ]
 
         for i in animation_ttl:
