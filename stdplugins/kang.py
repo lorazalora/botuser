@@ -10,10 +10,11 @@ import math
 import urllib.request
 from os import remove
 from PIL import Image
+import asyncio
 import random
 from telethon.tl.types import DocumentAttributeFilename, MessageMediaPhoto
-from userbot import bot, CMD_HELP
-from userbot.events import register
+from uniborg.util import admin_cmd
+import events
 from telethon.tl.functions.messages import GetStickerSetRequest
 from telethon.tl.types import InputStickerSetID
 from telethon.tl.types import DocumentAttributeSticker
