@@ -32,8 +32,8 @@ KANGING_STR = [
 ]
 
 
-@borg.on(outgoing=True, pattern="^.kang")
-async def kang(args):
+@borg.on(admin_cmd("kang ?(.*)"))
+async def _(args):
     """ For .kang command, kangs stickers or creates new ones. """
     user = await bot.get_me()
     if not user.username:
