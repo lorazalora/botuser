@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 # (c) Shrimadhav U K
 
-""" cmd .type to write it as type"""
+""" cmd .t to write it as t"""
 import asyncio
 from uniborg.util import admin_cmd
 
 
-@borg.on(admin_cmd(pattern="type (.*)"))
+@borg.on(admin_cmd(pattern="t (.*)"))
 async def _(event):
     if event.fwd_from:
         return
