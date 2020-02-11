@@ -1,11 +1,11 @@
-""".on Plugin for @UniBorg"""
+""".alive Plugin for @UniBorg"""
 import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
 from uniborg.util import admin_cmd
 
 
-@borg.on(admin_cmd("on"))
+@borg.on(admin_cmd("alive"))
 async def _(event):
     if event.fwd_from:
         return
