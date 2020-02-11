@@ -8,12 +8,13 @@ from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
 
 
+
 print("""Please go-to my.telegram.org
 Login using your Telegram account
 Click on API Development Tools
 Create a new application, by entering the required details""")
-APP_ID = int(input("Enter APP ID here: 1144602"))
-API_HASH = input("Enter API HASH here: f8afb1a75ebc95582d3473082c5ff712")
+APP_ID = int(input("Enter APP ID here: "))
+API_HASH = input("Enter API HASH here: ")
 
 with TelegramClient(StringSession(), APP_ID, API_HASH) as client:
     print(client.session.save())
