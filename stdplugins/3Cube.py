@@ -1,6 +1,6 @@
 """Emoji
 Available Commands:
-.3Cube"""
+.LZ"""
 
 from telethon import events
 
@@ -24,61 +24,61 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "3Cube":
+    if input_str == "LZ":
 
         await event.edit(input_str)
 
         animation_chars = [
 
-            "👑3Cube👑👑👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑",
+            "👑LZ👑👑👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑",
 
-            "◼️👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑",
+            "◼️👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑",
 
-            "◼️◼️👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑",
+            "◼️◼️👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑",
 
-            "◼️◼️◼️️👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑",
+            "◼️◼️◼️️👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑",
 
-            "◼️◼️◼️◼️👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑",
+            "◼️◼️◼️◼️👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑",
 
-            "‎◼️◼️◼️◼️◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑",
+            "‎◼️◼️◼️◼️◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑",
 
-            "◼️◼️◼️◼️◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑",
+            "◼️◼️◼️◼️◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑",
 
-            "◼️◼️◼️◼️◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑",
+            "◼️◼️◼️◼️◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑",
 
-            "◼️◼️◼️◼️◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑",
+            "◼️◼️◼️◼️◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑👑LZ👑",
 
-            "◼️◼️◼️◼️◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️",
+            "◼️◼️◼️◼️◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️",
 
-            "◼️◼️◼️◼️◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑◼️◼️",
+            "◼️◼️◼️◼️◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n◼️👑3Cube👑👑3Cube👑👑3Cube👑◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n◼️👑LZ👑👑LZ👑👑LZ👑◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n👑3Cube👑👑3Cube👑👑3Cube👑👑3Cube👑◼️\n◼️👑3Cube👑👑3Cube👑👑3Cube👑◼️\n◼️👑3Cube👑👑3Cube👑👑3Cube👑◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n👑LZ👑👑LZ👑👑LZ👑👑LZ👑◼️\n◼️👑LZ👑👑LZ👑👑LZ👑◼️\n◼️👑LZ👑👑LZ👑👑LZ👑◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️👑3Cube👑👑3Cube👑👑3Cube👑◼️\n◼️👑3Cube👑👑3Cube👑👑3Cube👑◼️\n◼️👑3Cube👑👑3Cube👑👑3Cube👑◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️👑LZ👑👑LZ👑👑LZ👑◼️\n◼️👑LZ👑👑LZ👑👑LZ👑◼️\n◼️👑LZ👑👑LZ👑👑LZ👑◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️👑3Cube👑👑3Cube👑◼️\n◼️👑3Cube👑👑3Cube👑👑3Cube👑◼️\n◼️👑3Cube👑👑3Cube👑👑3Cube👑◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️👑LZ👑👑LZ👑◼️\n◼️👑LZ👑👑LZ👑👑LZ👑◼️\n◼️👑LZ👑👑LZ👑👑LZ👑◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️👑3Cube👑◼️\n◼️👑3Cube👑👑3Cube👑👑3Cube👑◼️\n◼️👑3Cube👑👑3Cube👑👑3Cube👑◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️👑LZ👑◼️\n◼️👑LZ👑👑LZ👑👑LZ👑◼️\n◼️👑LZ👑👑LZ👑👑LZ👑◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑3Cube👑👑3Cube👑👑3Cube👑◼️\n◼️👑3Cube👑👑3Cube👑👑3Cube👑◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑LZ👑👑LZ👑👑LZ👑◼️\n◼️👑LZ👑👑LZ👑👑LZ👑◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑3Cube👑👑3Cube👑◼️◼️\n◼️👑3Cube👑👑3Cube👑👑3Cube👑◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑LZ👑👑LZ👑◼️◼️\n◼️👑LZ👑👑LZ👑👑LZ👑◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑3Cube👑👑3Cube👑◼️◼️\n◼️👑3Cube👑👑3Cube👑◼️◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑LZ👑👑LZ👑◼️◼️\n◼️👑LZ👑👑LZ👑◼️◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑3Cube👑👑3Cube👑◼️◼️\n◼️👑3Cube👑◼️◼️◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑LZ👑👑LZ👑◼️◼️\n◼️👑LZ👑◼️◼️◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑3Cube👑👑3Cube👑◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️👑LZ👑👑LZ👑◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️",
 
-            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️👑3Cube👑◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️",
+            "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️👑LZ👑◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️",
 
             "◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️\n◼️◼️◼️◼️◼️",
 
@@ -90,7 +90,7 @@ async def _(event):
 
             "◼️",
             
-            "👑 3Cube 👑"
+            "👑 LZ 👑"
         ]
 
         for i in animation_ttl:
