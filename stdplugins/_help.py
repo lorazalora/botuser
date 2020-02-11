@@ -14,11 +14,10 @@ async def _(event):
         s_helpme_string = borg._plugins[splugin_name].__doc__
     else:
         s_helpme_string = "****:"
-    helpme_string = """@Bot_Hub_Official™️ ( **Custom Built By** @Three_Cube_TeKnoways_bot ) \n**Verified Account**: ✅\n**Official Website**: http://www.threecube.tk\n**NOTICE**: **COMMANDS** are CASE **sensitive**\n**DESCRIPTION**: https://telegra.ph/command-list-for-BotHub-Userbot-11-08\nPithun {}\nTalethrun {}\n
+    helpme_string = """@Lorazalora @lorazaloraza\n**NOTICE**: **COMMANDS** are CASE **sensitive**\n**DESCRIPTION**: https://telegra.ph/command-list-for-BotHub-Userbot-11-08\nPithun {}\nTalethrun {}\n
  """.format(
         sys.version,
         __version__
-    )
     tgbotusername = Config.TG_BOT_USER_NAME_BF_HER  # pylint:disable=E0602
     if tgbotusername is not None:
         results = await borg.inline_query(  # pylint:disable=E0602
