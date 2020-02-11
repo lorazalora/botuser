@@ -14,7 +14,6 @@ import asyncio
 import random
 from telethon.tl.types import DocumentAttributeFilename, MessageMediaPhoto
 from uniborg.util import admin_cmd
-import events
 from telethon.tl.functions.messages import GetStickerSetRequest
 from telethon.tl.types import InputStickerSetID
 from telethon.tl.types import DocumentAttributeSticker
