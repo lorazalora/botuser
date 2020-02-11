@@ -1,15 +1,3 @@
-Skip to content
- mkaraniya / BotHub
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-Code Issues 0 Pull requests 0 Projects 0 Actions Security Pulse Community
-BotHub/stdplugins/kang.py
-@mkaraniya mkaraniya Update kang.py
-2ebf8bb on 6 Nov 2019
-330 lines (302 sloc)  12.7 KB
- 
 """Make / Download Telegram Sticker Packs without installing Third Party applications
 .copi [Optional Emoji]
 .packinfo
