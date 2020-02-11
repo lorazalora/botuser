@@ -1,4 +1,4 @@
-"""Use cmd .bothub , .armor , .love , .hero and check what happens"""
+"""Use cmd .LZYT , .armor , .love , .hero and check what happens"""
 
 from telethon import events
 
@@ -22,7 +22,7 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "bothub":
+    if input_str == "LZYT":
 
         await event.edit(input_str)
 
@@ -30,20 +30,31 @@ async def _(event):
 
             "😂",
 
-            "🤣",
+            "🙃",
 
             "😄",
 
-            "🤨",
+            "😂",
             
-            "😔",
+            "🙃",
             
-            "🤭",
+            "😄",
             
-            "😐", 
+            "😂", 
            
-            "😌",
-
+            "🙃",
+    "😄", 
+        "🤭", 
+            "😌", 
+                "https://t.me.lorazalora", 
+                    "🤭",
+                        "😐", 
+                            "😏", 
+                                "🤨", 
+                                    "🤪", 
+                                        "https://t.melorazaloraza", 
+                                            "😀", 
+                                                "😝", 
         ]
 
         for i in animation_ttl:
@@ -81,7 +92,7 @@ async def _(event):
 
             "🗿",
             
-            "🎗",
+            "🚨",
             
             "🎮",
             
